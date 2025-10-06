@@ -61,7 +61,7 @@
 <body class="bg-background-light dark:bg-background-dark text-gray-800 dark:text-gray-200">
     <div class="flex min-h-screen w-full flex-col">
         <header
-        class="sticky top-0 z-50 w-full border-b border-gray-200/50 bg-background-light/80 backdrop-blur-sm dark:border-gray-700/50 dark:bg-background-dark/80">
+          class="sticky top-0 z-50 w-full border-b border-gray-200/50 bg-background-light/80 backdrop-blur-sm dark:border-gray-700/50 dark:bg-background-dark/80">
           <div class="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8 py-3">
             <div class="flex items-center gap-3">
               <svg class="h-8 w-8 text-primary" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -71,17 +71,24 @@
               </svg>
               <h2 class="text-2xl font-bold text-gray-900 dark:text-white font-display">VisualGuide</h2>
             </div>
+            <nav class="hidden items-center gap-8 md:flex">
+              <a class="text-base font-medium text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary"
+                href="#">Home</a>
+              <a class="text-base font-medium text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary"
+                href="#">Features</a>
+              <a class="text-base font-medium text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary"
+                href="#">Support</a>
+              <a class="text-base font-medium text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary"
+                href="#">Contact</a>
+            </nav>
+            <button
+              class="hidden rounded-full bg-primary-dark px-6 py-2.5 text-base font-bold text-white shadow-lg shadow-primary-dark/30 transition-transform duration-300 hover:scale-105 hover:bg-primary-deep md:block">
+              Download App
+            </button>
+            <button class="p-2 md:hidden">
+              <span class="material-symbols-outlined text-gray-800 dark:text-gray-200"> menu </span>
+            </button>
           </div>
-        <nav class="hidden items-center gap-8 md:flex">
-          <a class="text-base font-medium text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary"
-            href="#">Home</a>
-          <a class="text-base font-medium text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary"
-            href="#">Features</a>
-          <a class="text-base font-medium text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary"
-            href="#">Support</a>
-          <a class="text-base font-medium text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary"
-            href="#">Contact</a>
-        </nav>
         </header>
     </div>
 </body>
