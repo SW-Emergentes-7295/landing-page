@@ -32,6 +32,30 @@
         font-family: 'Roboto', sans-serif;
       }
     </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-deep': 'var(--primary-deep)',
+                        'primary-dark': 'var(--primary-dark)',
+                        'primary': 'var(--primary)',
+                        'primary-light': 'var(--primary-light)',
+                        'primary-lighter': 'var(--primary-lighter)',
+                        'primary-soft': 'var(--primary-soft)',
+                        'primary-faint': 'var(--primary-faint)',
+                        'primary-lightest': 'var(--primary-lightest)',
+                        'background-light': 'var(--background-light)',
+                        'background-dark': 'var(--background-dark)',
+                    },
+                    fontFamily: {
+                        'sans': ['Open Sans', 'sans-serif'],
+                        'display': ['Roboto', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 
 <body>
